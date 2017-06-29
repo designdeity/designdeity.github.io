@@ -1,7 +1,10 @@
 body {
-	background: "unit_3/images/hero-bg.png";
-	background-color: #CBC8A1;
+	/*background-image: url("https://github.com/designdeity/designdeity.github.io/blob/master/unit_3/images/hero-bg.png");*/
+	background-image: url(http://goodunltd.com/hero-bg.png);
+	background-color: #c1c1c1;
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-size: 100%;
 }
 
 h1 {
@@ -32,6 +35,12 @@ h1 {
 p, li {
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 	color:#575757;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+ul {
+	font-weight: bold;
 }
 
 .button {
@@ -39,6 +48,7 @@ p, li {
     border: none;
     color: white;
     padding: 15px 32px;
+    margin: 10px 0px 40px 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -48,9 +58,10 @@ p, li {
 
 #slogan {
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 300;
 	color: #B200AA;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 28px;
 	/* background
 	background-color
 	color
