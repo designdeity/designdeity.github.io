@@ -3,7 +3,7 @@ body {
 	background-image: url(http://goodunltd.com/hero-bg.png);
 	background-color: #c1c1c1;
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-size: 100%;
 }
 
