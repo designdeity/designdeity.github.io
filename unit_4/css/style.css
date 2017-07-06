@@ -1,105 +1,136 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Zilla+Slab');
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Raleway');
+
+* { margin: 0; box-sizing: border-box; }
 
 body {
 	/*background-image: url("https://github.com/designdeity/designdeity.github.io/blob/master/unit_3/images/hero-bg.png");*/
-	background-image: url(http://goodunltd.com/hero-bg.png);
-	background-color: #fff;
+	background-image: url('../images/hero-bg.png');
+	background-color: #d4d4d4;
 	background-repeat: no-repeat;
+	/*background-size: cover;*/
 	background-size: 100%;
 }
 
-h1 {
-	color: #287E00;
-	font-family: 'Zilla Slab', serif;
-	font-size: 7em;
-	font-weight:400;
-	margin: .5em 0em;
-}
-
-hr {
-	border: 0;
-	width: 100%;
-	background-color: #287E00;
-	color: #287E00;
-	height: 4px;
-}
-
 .quote {
-	color: #B200AA;
-	font-family: 'Raleway', sans-serif;
-	font-size: 	1.75em;
+	color: #287E00;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 22px;
 	font-weight:400;
 	font-style: italic;
 	text-align: center;
-	padding: 0em 5em;
+	padding: 2em 6em .5em;
 }
 
-.quote-grid {
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.1em;
-	line-height: 1.5em;
-	font-style: italic;
-	text-align: center;
-	float: left;
-	background-color: white;
-    width: 330px;
-    border: 10px solid #B200AA;
-    padding: 25px 25px 10px;
-	margin: 0px 25px 20px 0px;
-}
-
-.quotegrid-author {
-	color: #575757;
-	font-family: 'Raleway', sans-serif;
-	font-size: 1em;
-	line-height: 1.1em;
-	text-align: center;
-	font-style: normal;
+strong {
+	font-weight: bold;
+	color: #287E00;
 }
 
 .quoteauthor {
 	color: #575757;
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.1em;
+	font-size: 16px;
+	font-weight:400;
 	font-weight: bold;
 	text-align: center;
+	padding: .5em 0em .5em;
 }
 
-p, li {
-	font-family: 'Raleway', sans-serif";
-	font-size: 18px;
+h1 {
+	color: #56007e;
+	font-family: 'Archivo Black', san-serif;
+	font-size: 80px;
+	font-weight:400;
+	padding: 0px 0px 5px 0px;
+}
+
+hr {
+	border: 0;
+	width: 99%;
+	background-color: #287E00;
+	color: #287E00;
+	height: 4px;
+	margin-top: 30px;
+}
+
+p   {
+	font-family: 'Raleway', sans-serif;
+	color:#242424;
+	font-size: 17px;
 	font-weight: normal;
-	color: 000;
+	padding: 0px 0px 10px 0px;
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	color:#242424;
+	font-size: 17px;
+	font-weight: normal;
+	padding: 0px 0px 10px 0px;
 }
 
 ul {
 	font-weight: bold;
 }
 
+h2 {
+	color: #287E00;
+	font-family: 'Archivo Black', serif;
+	font-size: 60px;
+	font-weight:400;
+	padding: 30px 0px 10px 0px;
+}
+
+.quote-grid {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight:200;
+	font-style: italic;
+	text-align: center;
+	float: left;
+	background-color: white;
+    width: 330px;
+    border: 10px solid #287E00;
+    padding: 25px 25px 10px 25px;
+	margin: 0px 25px 50px 0px;
+}
+
+.quotegrid-author {
+	color: #575757;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight:200;
+	text-align: center;
+	font-style: normal;
+}
+
 .button {
-    background-color: #B200AA; 
-    border: none;
+    background-color: #287E00; 
+    /*border: none;*/
     color: white;
     padding: 15px 32px;
-    margin: 40px 20px 40px 0px;
+    margin: 30px 10px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.5em;
-	font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+	font-family: 'Archivo Black', serif;
 	border-radius: .5em;
+	letter-spacing: .2em;
 }
 
 a:hover {
-	background-color: hotpink;
+	background-color: #56007e;
 }
 
 #slogan {
 	font-style: italic;
-	font-weight: 300;
-	color: #B200AA;
-	font-family: 'Raleway', sans-serif;
-	font-size: 4em;
+	font-weight: 500;
+	color: #287E00;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 28px;
+	padding: 0px 0px 20px 0px;
 }
 
 .portfolioimage {
@@ -107,5 +138,13 @@ a:hover {
 	width: 420px;
 	margin:auto;
 	padding: 0px 0px 20px 0px;
-	display:inline-block;
+	display: inline-block;
+}
+
+nav {
+	text-align: center;
+}
+
+.btn-container {
+	clear: both;
 }
