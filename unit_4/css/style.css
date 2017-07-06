@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Zilla+Slab');
+
+body {
+	/*background-image: url("https://github.com/designdeity/designdeity.github.io/blob/master/unit_3/images/hero-bg.png");*/
+	background-image: url(http://goodunltd.com/hero-bg.png);
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1 {
+	color: #287E00;
+	font-family: 'Zilla Slab', serif;
+	font-size: 7em;
+	font-weight:400;
+	margin: .5em 0em;
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	background-color: #287E00;
+	color: #287E00;
+	height: 4px;
+}
+
+.quote {
+	color: #B200AA;
+	font-family: 'Raleway', sans-serif;
+	font-size: 	1.75em;
+	font-weight:400;
+	font-style: italic;
+	text-align: center;
+	padding: 0em 5em;
+}
+
+.quote-grid {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-style: italic;
+	text-align: center;
+	float: left;
+	background-color: white;
+    width: 330px;
+    border: 10px solid #B200AA;
+    padding: 25px 25px 10px;
+	margin: 0px 25px 20px 0px;
+}
+
+.quotegrid-author {
+	color: #575757;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	line-height: 1.1em;
+	text-align: center;
+	font-style: normal;
+}
+
+.quoteauthor {
+	color: #575757;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+p, li {
+	font-family: 'Raleway', sans-serif";
+	font-size: 18px;
+	font-weight: normal;
+	color: 000;
+}
+
+ul {
+	font-weight: bold;
+}
+
+.button {
+    background-color: #B200AA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 40px 20px 40px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+	font-family: 'Zilla Slab', serif;
+	border-radius: .5em;
+}
+
+a:hover {
+	background-color: hotpink;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: 300;
+	color: #B200AA;
+	font-family: 'Raleway', sans-serif;
+	font-size: 4em;
+}
+
+.portfolioimage {
+	position: relative;
+	width: 420px;
+	margin:auto;
+	padding: 0px 0px 20px 0px;
+	display:inline-block;
+}
