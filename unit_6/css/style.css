@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Raleway:400,400i,500,800,800i,900,900i');
+
+* { margin: 0; box-sizing: border-box; }
+
+body {
+	background-image: url('../images/hero-bg-2.png');
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+header {
+	background-color: rgba(86,0,126,.5);
+}
+
+
+.quote {
+	color: #fff;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.5em;
+	font-weight:400;
+	font-style: italic;
+	text-align: center;
+	padding: 2em 6em .5em;
+	line-height: 1.3em;
+}
+
+.quoteauthor {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	font-weight: bold;
+	text-align: center;
+	padding: .5em 0em 2.5em;
+	letter-spacing: .12em;
+}
+
+span {
+	font-weight: 900;
+	line-height: 1.3em;
+}
+
+article#resume span {
+	font-weight: 900;
+	color: #56007e;
+	padding: 2% 0 0 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: #007e56;
+	padding: 2% 0 0 0;
+	text-transform: uppercase;
+}
+
+h1 {
+	color: #56007e;
+	font-family: 'Archivo Black', san-serif;
+	font-size: 5em;
+	font-weight:400;
+	text-align: center;
+	padding: 25px 0px 5px 0px;
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	background-color: #007e56;
+	color: #007e56;
+	height: 4px;
+	margin-top: 20px;
+}
+
+p   {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.3em;
+	color:#242424;
+	font-size: 17px;
+	font-weight: normal;
+	padding: 0px 0px 10px 0px;
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	color:#242424;
+	font-size: 17px;
+	font-weight: normal;
+	padding: 0px 0px 10px 0px;
+}
+
+ul {
+	font-weight: bold;
+}
+
+h2 {
+	color: #007e56;
+	font-family: 'Archivo Black', serif;
+	font-size: 60px;
+	font-weight:400;
+	padding: 30px 0px 10px 0px;
+	border-top: 2px solid #007e56;
+	margin: 20px 0 0 0;
+}
+
+strong {
+	font-weight: 800;
+}
+
+.quote-grid {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight:200;
+	font-style: italic;
+	text-align: center;
+	background-color: white;
+    /*width: 330px;*/
+    width: 30%;
+    border: 10px solid #007e56;
+    padding: 25px 25px 10px 25px;
+    margin: 2% auto;
+}
+
+.quotegrid-author {
+	color: #575757;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight:200;
+	text-align: center;
+	font-style: normal;
+}
+
+.quotegrid-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.button {
+    background-color: #007e56; 
+    border: none;
+    color: white;
+	padding: 15px 32px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-family: 'Archivo Black', serif;
+	letter-spacing: .2em;
+}
+
+/*nav {
+	text-align: center;
+	background-color: #007e56;
+	margin: 0;	
+}*/
+
+nav {
+	text-align: center;
+	background-color: #007e56;
+	margin: 0;	
+}
+
+nav a:hover {
+	background-color: #56007e;
+}
+
+img {
+	display: block;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: 500;
+	color: #007e56;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.7em;
+	border-bottom: 2px solid #007e56;
+	padding: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+/*.portfolioimage {
+	position: relative;
+	width: 49%;
+	margin: auto;
+	padding: 0 0 2% 0;
+	display: inline-block;
+	border-bottom: 0;
+	background-color: #555555;
+}*/
+
+
+article#portfolio img {
+	width: 45%;
+	margin: 2%;
+	max-width: 640px;
+	/*display: inline-block;*/
+	/*border-bottom: 0;*/
+	float: left;
+	display: block;
+}
+
+#portfolio {
+	width: 94%;
+}
+
+
+/*
+Fix anchor tag hidden behind stick nav at top of page.
+
+article {
+	padding: 30px 0 0 0; 
+} 
+*/
+
+#two-column {
+	/*background-color: #ffb7cf;
+	border: 1px black solid;*/
+	padding: 20px;
+}
+
+#left {
+	/*background-color: pink;
+	border: 1px solid;*/
+	padding: 20px;
+	float: left;
+	width: 30%;
+	border-right: 1px solid #007e56;
+}
+
+#right {
+	/*background-color: violet;
+	border: 1px solid;*/
+	padding: 20px;
+	float: right;
+	width: 67%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.btn-container {
+	clear: both;
+}
+
+.ftr-container {
+	clear: both;
+	margin: 0 auto 50px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #56007e;
+}
+
+#wrapper {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+
+/* Below: copy and Past from https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px 0px 16px 0px; /* Add a top margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	font-size: 16px;
+	font-family: 'Archivo Black', serif;
+	letter-spacing: .2em;
+    background-color: #007e56;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #56007e;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 10px 5px 40px 5px;
+}
+
+label {
+	color: #56007e;
+	font-weight: 500;
+	padding: 0 0 12px 0; /* <— NOT WORKING*/
+}
