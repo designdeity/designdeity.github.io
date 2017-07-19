@@ -8,6 +8,11 @@ body {
 	background-color: #fff;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.3em;
+	color:#242424;
+	font-size: 17px;
+	font-weight: normal;
 }
 
 header {
@@ -18,12 +23,13 @@ header {
 .quote {
 	color: #fff;
 	font-family: 'Archivo Black', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight:400;
 	font-style: italic;
 	text-align: center;
 	padding: 2em 6em .5em;
 	line-height: 1.3em;
+	letter-spacing: .1em;
 }
 
 .quoteauthor {
@@ -40,6 +46,7 @@ header {
 span {
 	font-weight: 900;
 	line-height: 1.3em;
+	color: #56007e;s
 }
 
 article#resume span {
@@ -48,14 +55,9 @@ article#resume span {
 	padding: 2% 0 0 0;
 }
 
-h3 {
-	font-size: 1.5em;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
-	color: #007e56;
-	padding: 2% 0 0 0;
-	text-transform: uppercase;
-}
+/*.resume {
+	width: 50%;
+}*/
 
 h1 {
 	color: #56007e;
@@ -63,7 +65,26 @@ h1 {
 	font-size: 5em;
 	font-weight:400;
 	text-align: center;
-	padding: 25px 0px 5px 0px;
+	padding: 6% 0 3% 0;
+}
+
+h2 {
+	color: #007e56;
+	font-family: 'Archivo Black', serif;
+	font-size: 60px;
+	font-weight:400;
+	padding: 4% 0 3% 0;
+	border-top: 2px solid #007e56;
+	margin: 4% 0 0 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: #007e56;
+	padding: 2% 0 1% 0;
+	text-transform: uppercase;
 }
 
 hr {
@@ -76,11 +97,6 @@ hr {
 }
 
 p   {
-	font-family: 'Raleway', sans-serif;
-	line-height: 1.3em;
-	color:#242424;
-	font-size: 17px;
-	font-weight: normal;
 	padding: 0px 0px 10px 0px;
 }
 
@@ -90,45 +106,38 @@ li {
 	font-size: 17px;
 	font-weight: normal;
 	padding: 0px 0px 10px 0px;
+	list-style-type: square;
+	list-style-position: inside;
 }
 
 ul {
 	font-weight: bold;
 }
 
-h2 {
-	color: #007e56;
-	font-family: 'Archivo Black', serif;
-	font-size: 60px;
-	font-weight:400;
-	padding: 30px 0px 10px 0px;
-	border-top: 2px solid #007e56;
-	margin: 20px 0 0 0;
-}
-
 strong {
 	font-weight: 800;
+	color: #007e56;
 }
 
 .quote-grid {
 	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
 	font-weight:200;
 	font-style: italic;
 	text-align: center;
 	background-color: white;
-    /*width: 330px;*/
     width: 30%;
     border: 10px solid #007e56;
-    padding: 25px 25px 10px 25px;
-    margin: 2% auto;
+    /*padding: 25px 25px 10px 25px;*/
+    padding: 2% 3% 1% 3%;
+    margin: 2% 0 2% 0;
 }
 
 .quotegrid-author {
 	color: #575757;
 	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
 	font-weight:200;
+	font-size: .8em;
+	line-height: 1.2em;
 	text-align: center;
 	font-style: normal;
 }
@@ -152,12 +161,6 @@ strong {
 	letter-spacing: .2em;
 }
 
-/*nav {
-	text-align: center;
-	background-color: #007e56;
-	margin: 0;	
-}*/
-
 nav {
 	text-align: center;
 	background-color: #007e56;
@@ -179,7 +182,7 @@ img {
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 1.7em;
 	border-bottom: 2px solid #007e56;
-	padding: 0px 0px 20px 0px;
+	padding: 3% 0 4% 0;
 	text-align: center;
 }
 
@@ -195,17 +198,20 @@ img {
 
 
 article#portfolio img {
-	width: 45%;
+	width: 46%;
 	margin: 2%;
 	max-width: 640px;
-	/*display: inline-block;*/
-	/*border-bottom: 0;*/
 	float: left;
 	display: block;
+	opacity: 1.0;
+}
+
+article#portfolio img:hover {
+	opacity: .5;
 }
 
 #portfolio {
-	width: 94%;
+	width: 100%;
 }
 
 
@@ -229,7 +235,7 @@ article {
 	padding: 20px;
 	float: left;
 	width: 30%;
-	border-right: 1px solid #007e56;
+	border-right: 2px solid #007e56;
 }
 
 #right {
@@ -255,14 +261,16 @@ article {
 
 .ftr-container {
 	clear: both;
-	margin: 0 auto 50px;
+	margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	color: #56007e;
+	color: #ffffff;
+	background-color: #56007e;
+	padding: 2% 0 2% 0;
 }
 
 #wrapper {
-	width: 80vw;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -273,11 +281,12 @@ article {
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */  
-    border: 2px solid #ccc; /* Gray border */
+    border: 2px solid #56007e; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px 0px 16px 0px; /* Add a top margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: none;
+    /*resize: vertical*/ /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -302,10 +311,19 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     padding: 10px 5px 40px 5px;
+    width: 70%;
+    margin: 3% auto 0;
+    font-weight: 500;
+}
+
+.contact-bg {
+	/*background-color: rgba(86,0,126,.35);*/
+	background-image: linear-gradient(-25deg, rgba(86,0,126,.5), 20%, #ffffff)
 }
 
 label {
 	color: #56007e;
+	font-size: 1em;
 	font-weight: 500;
-	padding: 0 0 12px 0; /* <— NOT WORKING*/
+	margin: 2% 0; /* <— NOT WORKING*/
 }
