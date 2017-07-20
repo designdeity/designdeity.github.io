@@ -55,9 +55,6 @@ article#resume span {
 	padding: 2% 0 0 0;
 }
 
-/*.resume {
-	width: 50%;
-}*/
 
 h1 {
 	color: #56007e;
@@ -232,6 +229,9 @@ article {
 #left {
 	/*background-color: pink;
 	border: 1px solid;*/
+	color: #56007e;
+	font-size: 1.1em;
+	line-height: 1.4em;
 	padding: 20px;
 	float: left;
 	width: 30%;
