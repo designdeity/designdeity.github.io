@@ -186,17 +186,6 @@ img {
 	text-align: center;
 }
 
-/*.portfolioimage {
-	position: relative;
-	width: 49%;
-	margin: auto;
-	padding: 0 0 2% 0;
-	display: inline-block;
-	border-bottom: 0;
-	background-color: #555555;
-}*/
-
-
 .portfolioimage {
 	width: 50%;
 	padding: 20px;
@@ -209,10 +198,6 @@ article#portfolio img:hover {
 	opacity: .5;
 }
 
-#portfolio {
-	width: 100%;
-}
-
 
 /*
 Fix anchor tag hidden behind stick nav at top of page.
@@ -223,14 +208,10 @@ article {
 */
 
 #two-column {
-	/*background-color: #ffb7cf;
-	border: 1px black solid;*/
 	padding: 20px;
 }
 
 #left {
-	/*background-color: pink;
-	border: 1px solid;*/
 	color: #56007e;
 	font-size: 1.1em;
 	line-height: 1.4em;
@@ -241,8 +222,6 @@ article {
 }
 
 #right {
-	/*background-color: violet;
-	border: 1px solid;*/
 	padding: 20px;
 	float: right;
 	width: 67%;
@@ -272,14 +251,15 @@ article {
 }
 
 .wrapper {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	max-width: 1200px;
+	padding: 0 20px;
 }
 
 #testimonials {
-	max-width: 1240px;
-	
+	max-width: 1160px;
+
 }
 
 
@@ -334,4 +314,11 @@ label {
 	font-size: 1em;
 	font-weight: 500;
 	margin: 2% 0; /* <— NOT WORKING*/
+}
+
+
+@media screen and (max-width: 800px) {
+	.portfolioimage {
+		width: 60%;
+	}
 }
