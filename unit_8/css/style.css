@@ -1,0 +1,475 @@
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Raleway:400,400i,500,800,800i,900,900i');
+
+* { margin: 0; box-sizing: border-box; }
+
+body {
+	background-image: url('../images/hero-bg-2.png');
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.3em;
+	color:#242424;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+header {
+	background-color: rgba(86,0,126,.5);
+}
+
+
+.hero-quote {
+	color: #fff;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.3em;
+	font-weight:400;
+	font-style: italic;
+	text-align: center;
+	padding: 2em 6em .5em;
+	line-height: 1.3em;
+	letter-spacing: .1em;
+}
+
+.hero-quoteauthor {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	font-weight: bold;
+	text-align: center;
+	padding: .5em 0em 2.5em;
+	letter-spacing: .12em;
+}
+
+span {
+	font-weight: 900;
+	line-height: 1.3em;
+	color: #56007e;s
+}
+
+article#resume span {
+	font-weight: 900;
+	color: #56007e;
+	padding: 2% 0 0 0;
+}
+
+
+h1 {
+	color: #56007e;
+	font-family: 'Archivo Black', san-serif;
+	font-size: 5em;
+	font-weight:400;
+	text-align: center;
+	padding: 6% 0 3% 0;
+}
+
+h2 {
+	color: #007e56;
+	font-family: 'Archivo Black', serif;
+	font-size: 4em;
+	font-weight:400;
+	padding: .5em 0 .8em 0;
+	border-top: 2px solid #007e56;
+	margin: 4% 0 0 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: #007e56;
+	padding: 2% 0 1% 0;
+	text-transform: uppercase;
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	background-color: #007e56;
+	color: #007e56;
+	height: 4px;
+	margin-top: 20px;
+}
+
+p   {
+	padding: 0px 0px 10px 0px;
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	color:#242424;
+	font-size: 17px;
+	font-weight: normal;
+	padding: 0px 0px 10px 0px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul {
+	font-weight: bold;
+}
+
+strong {
+	font-weight: 800;
+	color: #007e56;
+}
+
+.quote-grid {
+	font-family: 'Raleway', sans-serif;
+	font-weight:200;
+	font-style: italic;
+	text-align: center;
+	background-color: white;
+    width: 33.3333%;
+    padding: 10px;
+}
+
+.quote-grid div {
+	    border: 10px solid #007e56;
+	    padding: 20px;
+}
+
+.quotegrid-author {
+	color: #575757;
+	font-family: 'Raleway', sans-serif;
+	font-weight:200;
+	font-size: .8em;
+	line-height: 1.2em;
+	text-align: center;
+	font-style: normal;
+}
+
+.quotegrid-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.button {
+    background-color: #007e56; 
+    border: none;
+    color: white;
+	padding: 15px 32px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-family: 'Archivo Black', serif;
+	letter-spacing: .2em;
+}
+
+nav {
+	text-align: center;
+	background-color: #007e56;
+	margin: 0;	
+}
+
+nav a:hover {
+	background-color: #56007e;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: 500;
+	color: #007e56;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.7em;
+	border-bottom: 2px solid #007e56;
+	padding: .7em 0 1.3em 0;
+	text-align: center;
+}
+
+.portfolioimage {
+	width: 50%;
+	padding: 20px;
+	float: left;
+	display: block;
+	opacity: 1.0;
+}
+
+article#portfolio img:hover {
+	opacity: .5;
+}
+
+
+/*
+Fix anchor tag hidden behind stick nav at top of page.
+
+article {
+	padding: 30px 0 0 0; 
+} 
+*/
+
+#two-column {
+	padding: 20px;
+}
+
+#left {
+	color: #56007e;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	padding: 20px;
+	float: left;
+	width: 30%;
+	border-right: 2px solid #007e56;
+}
+
+#right {
+	padding: 20px;
+	float: right;
+	width: 67%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.btn-container {
+	clear: both;
+}
+
+.ftr-container {
+	clear: both;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	background-color: #56007e;
+	padding: 1.5em;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+#testimonials {
+	max-width: 1160px;
+
+}
+
+
+/* Below: copy and Past from https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 2px solid #56007e; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px 0px 16px 0px; /* Add a top margin */
+    resize: none;
+    /*resize: vertical*/ /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	font-size: 16px;
+	font-family: 'Archivo Black', serif;
+	letter-spacing: .2em;
+    background-color: #007e56;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #56007e;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 10px 5px 40px 5px;
+    width: 70%;
+    margin: 3% auto 0;
+    font-weight: 500;
+}
+
+.contact-bg {
+	/*background-color: rgba(86,0,126,.35);*/
+	background-image: linear-gradient(-25deg, rgba(86,0,126,.5), 20%, #ffffff)
+}
+
+label {
+	color: #56007e;
+	font-size: 1em;
+	font-weight: 500;
+	margin: 2% 0; /* <— NOT WORKING*/
+}
+
+
+
+/************************
+
+       MEDIA QUERIES
+
+*************************/
+
+
+@media screen and (max-width: 1100px) {
+	h1 {
+	font-size: 4em;
+}
+}
+
+@media screen and (max-width: 900px) {
+	h1 {
+	font-size: 3.5em;
+	line-height: .8em;
+}
+	.hero-quote {
+		font-size: 1.1em;
+		padding: 3em 6em .5em;
+		line-height: 1.3em;
+		letter-spacing: .1em;
+	}
+
+	.hero-quoteauthor {
+		font-size: .9em;
+		padding: .5em 0em 2.5em;
+		letter-spacing: .12em;
+	}
+}
+
+@media screen and (max-width: 810px) {
+
+	.portfolioimage {
+		width: 80%;
+		padding: 0 0 1em 0;
+	}
+
+	.quotegrid-container {
+		width: 100%;
+	}
+
+	#hide-small {
+		display:none!important;
+	}
+
+	nav {
+		text-align: center;
+		float: none;
+	}
+
+	.button {
+		display: block;
+		float: none;
+	}
+
+	.hero-quote {
+		font-size: 1.1em;
+		padding: 1em 1.5em;
+		line-height: 1.3em;
+		letter-spacing: .1em;
+	}
+
+	#slogan {
+		font-size: 1.5em;
+		border-bottom: 2px solid #007e56;
+		line-height: 1.1em;
+		text-align: center;
+	}
+
+	#left {
+		float: none;
+		width: 100%;
+		border-right: none;
+		padding: 20px 20px 0 20px;
+	}
+
+	#right {
+		float: none;
+		width: 100%;
+	}
+
+	nav {
+    	float: none;
+  	}
+  
+  	nav a {
+   		width: 100%;
+  	}
+	
+	/*nav a {
+		text-align: center;
+		margin: 0;	
+		display: block;
+	}*/
+}
+
+
+@media screen and (max-width: 420px) {
+
+	p {
+    	padding: 0px 0px 5px 0px;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+	    color: #007e56;
+	    font-family: 'Archivo Black', serif;
+	    font-size: 2.5em;
+	}
+
+	h3 {
+	    font-size: 1.2em;
+	    padding: .85em 0 0 0;
+	}
+
+	.portfolioimage {
+		width: 100%;
+		padding: 0 0 1em 0;
+	}
+
+	.hero-quote {
+		display:none!important;
+	}
+
+	.hero-quoteauthor {
+		display:none!important;
+	}
+
+	#slogan {
+		font-size: 1em;
+		border-bottom: 2px solid #007e56;
+		line-height: 1.1em;
+		text-align: center;
+		border-width: 100%;
+	}
+
+	#resume {
+		display: none;
+	}
+
+
+	/* Add a background color and some padding around the form */
+	.container {
+	    width: 100%;
+	}
+
+	article#resume span {
+		font-size: 1em;
+	    font-weight: 900;
+	    padding: .3em 0 0 0;
+	}
