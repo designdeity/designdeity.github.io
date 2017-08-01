@@ -6,9 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--[if lt IE 9]>
-            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-        <![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 			<header class="wrapper">
@@ -16,17 +14,20 @@
 				<div class="hero-quoteauthor">— Aaron Hansen, Art Director at The Gigawatt Group</div>
 			</header>
 
+			<div id="burger">
+			</div>
+
 			<nav class="wrapper">
 				<a href="#portfolio" class="button">PoRTFoLio</a>
 				<a href="#testimonials" class="button">TeSTiMoNiaLS</a>
-				<a href="#resume" class="button" id="#resume">ReSuMé</a>
+				<a href="#resume" class="button" id="resume">ReSuMé</a>
 				<a href="#contact" class="button">CoNTaCT</a>
 			</nav> 
 
 
 			<div class="wrapper">
 				<h1>DiMiTRY eKZaRKHoV</h1>
-				<p id="slogan">Experienced. Team-oriented. Big on Creativity.</p>
+				<p id="slogan">Experienced. Team-oriented. <span>Big on Creativity.</span></p>
 			</div>
 				<section id="two-column" class="clearfix wrapper">
 					<article id="left">
@@ -34,7 +35,7 @@
 					</article>
 
 					<aside id="right">
-						<p><span>Specialties</span></p>
+						<p><strong>Specialties</strong></p>
 						<p>
 						<ul>
 							<li>Proficiency in design industry standard and best practices</li>
@@ -44,24 +45,24 @@
 						</ul>
 						</p>
 
-						<p><span>Additionally</span></p>
+						<p><strong>Additionally</strong></p>
 							<p>Competently speak both Russian and Spanish. A pervasively positive attitude, a great sense of humor, and can reach anything off the highest shelf. (I'm 6'8".)</p>
 					</aside>
 				</section>
 										
 			<article id="portfolio" class="clearfix wrapper">
 				<h2>PoRTFoLio</h2>
-				<div class="portfolioimage"><a href="#"><img src="images/portfolio/Gala18-Website.jpg" alt="Gala18-Website images"></a></div>
+				<div class="portfolioimage"><img src="images/portfolio/Gala18-Website.jpg" alt="Gala18-Website images"></div>
 
-				<div class="portfolioimage"><a href="#"><img src="images/portfolio/NRF-Veterans-Whitepaper.jpg" alt="NRF Veterans Whitepaper image"></a></div>
+				<div class="portfolioimage"><img src="images/portfolio/NRF-Veterans-Whitepaper.jpg" alt="NRF Veterans Whitepaper image"></div>
 
-				<div class="portfolioimage"><a href="#"><img src="images/portfolio/NRF-Kip-Tindell-Book.jpg" alt="NRF Kip Tindell Book image"></a></div>
+				<div class="portfolioimage"><img src="images/portfolio/NRF-Kip-Tindell-Book.jpg" alt="NRF Kip Tindell Book image"></div>
 				
-				<div class="portfolioimage"><a href="#"><img src="images/portfolio/mockup-apartments.com-billboard.jpg" alt="Apartments.com Billboard image"></a></div>
+				<div class="portfolioimage"><img src="images/portfolio/mockup-apartments.com-billboard.jpg" alt="Apartments.com Billboard image"></div>
 
-				<div class="portfolioimage"><a href="#"><img src="images/portfolio/mockup-powerbroker-award-ad.jpg" alt="Powerbroker Award Ad image"></a></div>
+				<div class="portfolioimage"><img src="images/portfolio/mockup-powerbroker-award-ad.jpg" alt="Powerbroker Award Ad image"></div>
 				
-				<div class="portfolioimage"><a href="#"><img src="images/portfolio/hus-wear-magazine-ad.jpg" alt="hu's wear Magazine Ad image"></a></div>
+				<div class="portfolioimage"><img src="images/portfolio/hus-wear-magazine-ad.jpg" alt="hu's wear Magazine Ad image"></div>
 			</article>
 
 
@@ -237,6 +238,16 @@
 			<footer class="ftr-container wrapper">
 				<p>&copy; DiMiTRY eKZaRKHoV</p>
 			</footer>
+
+<script type="text/javascript">
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log( "ready!" );
+    $( "#burger" ).click(function() {
+ 	$( "nav" ).slideToggle( "slow" );
+	});
+});
+</script>
 
 </body>
 </html>

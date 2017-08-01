@@ -43,10 +43,10 @@ header {
 	letter-spacing: .12em;
 }
 
-span {
+strong {
 	font-weight: 900;
 	line-height: 1.3em;
-	color: #56007e;s
+	color: #56007e;
 }
 
 article#resume span {
@@ -111,11 +111,6 @@ ul {
 	font-weight: bold;
 }
 
-strong {
-	font-weight: 800;
-	color: #007e56;
-}
-
 .quote-grid {
 	font-family: 'Raleway', sans-serif;
 	font-weight:200;
@@ -158,6 +153,10 @@ strong {
     font-size: 16px;
 	font-family: 'Archivo Black', serif;
 	letter-spacing: .2em;
+}
+
+#burger {
+	display: none;
 }
 
 nav {
@@ -354,9 +353,15 @@ label {
 	.portfolioimage {
 		width: 80%;
 		padding: 0 0 1em 0;
+		margin: auto;
+		float: none;
 	}
 
 	.quotegrid-container {
+		display: block;
+	}
+
+	.quote-grid {
 		width: 100%;
 	}
 
@@ -418,6 +423,22 @@ label {
 
 @media screen and (max-width: 420px) {
 
+	#burger {
+		background-image: url('http://www.pngmart.com/files/1/Healthy-Burger-PNG.png');
+		background-size: 60px;
+		display: block;
+		width: 60px;
+		height: 40px;
+		margin: 10px 0 0 0;
+/*		background-color: orange;
+*/		background-blend-mode: multiply;
+		background-repeat: no-repeat;
+	}
+
+	nav {
+		display: none;
+	}
+
 	p {
     	padding: 0px 0px 5px 0px;
 	}
@@ -456,6 +477,10 @@ label {
 		line-height: 1.1em;
 		text-align: center;
 		border-width: 100%;
+	}
+
+	#slogan span {
+		display: block;
 	}
 
 	#resume {
